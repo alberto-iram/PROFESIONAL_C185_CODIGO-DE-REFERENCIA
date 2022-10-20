@@ -28,12 +28,12 @@ export default class Home extends Component {
                         <Text style={styles.titleText1}>FR</Text><Text style={styles.titleText2}>APP</Text>
                     </View>
                     <View style={{ flexDirection: 'row', flexWrap: 'wrap' }}>
-                        <Text style={styles.subheading1}>Try Out</Text><Text style={styles.subheading2}> Cool Frames</Text>
+                        <Text style={styles.subheading1}>Prueba nuestras</Text><Text style={styles.subheading2}> gafas</Text>
                     </View>
                 </View>
                 <View style={styles.contentContainer}>
                     <View style={{ flex: 0.5 }}>
-                        <Text style={styles.contentText}>Experience the virtual experience of trying out different frames from our wide collection on your mobile phone before making any purchase, just how you would in an offline store!</Text>
+                        <Text style={styles.contentText}>Prueba la experiencia virtual de usar diferentes gafas de nuestra gran colección en tu dispositivo móvil antes de realizar una compra, ¡justo como lo harías en una tiendo física!</Text>
                     </View>
                     <View style={{ flexDirection: "row", flex: 0.25 }}>
                         <View style={{ flex: 0.5 }}>
@@ -55,7 +55,7 @@ export default class Home extends Component {
                 <View style={styles.buttonContainer}>
                     <TouchableOpacity onPress={() => this.props.navigation.navigate("Main")}>
                         <View style={styles.button}>
-                            <Text style={styles.buttonText}>Try Now!</Text>
+                            <Text style={styles.buttonText}>¡Prueba ahora!</Text>
                         </View>
                     </TouchableOpacity>
                 </View>
