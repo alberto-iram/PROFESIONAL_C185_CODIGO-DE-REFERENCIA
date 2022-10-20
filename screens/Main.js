@@ -121,7 +121,7 @@ export default class Main extends React.Component {
         if (hasCameraPermission === false) {
             return (
                 <View style={styles.container}>
-                    <Text>No access to camera</Text>
+                    <Text>Sin acceso a la cámara</Text>
                 </View>
             )
         }
@@ -133,7 +133,7 @@ export default class Main extends React.Component {
                         <Text style={styles.titleText1}>FR</Text><Text style={styles.titleText2}>APP</Text>
                     </View>
                     <View style={{ flexDirection: 'row', flexWrap: 'wrap' }}>
-                        <Text style={styles.subheading1}>Try Our</Text><Text style={styles.subheading2}> Cool Frames</Text>
+                        <Text style={styles.subheading1}>Prueba nuestras</Text><Text style={styles.subheading2}> gafas</Text>
                     </View>
                 </View>
                 <View style={styles.cameraStyle}>
@@ -180,16 +180,16 @@ export default class Main extends React.Component {
                             <Text>Regular</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={this.state.selected == "wayfarer" ? styles.categoryBoxSelected : styles.categoryBox} onPress={() => this.setState({ selected: `wayfarer` })}>
-                            <Text>Wayfarer</Text>
+                            <Text>Viajero</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={this.state.selected == "rimless" ? styles.categoryBoxSelected : styles.categoryBox} onPress={() => this.setState({ selected: `rimless` })}>
-                            <Text>Rimless</Text>
+                            <Text>Sin marco</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={this.state.selected == "round" ? styles.categoryBoxSelected : styles.categoryBox} onPress={() => this.setState({ selected: `round` })}>
-                            <Text>Round</Text>
+                            <Text>Redondos</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={this.state.selected == "aviator" ? styles.categoryBoxSelected : styles.categoryBox} onPress={() => this.setState({ selected: `aviator` })}>
-                            <Text>Aviator</Text>
+                            <Text>Aviador</Text>
                         </TouchableOpacity>
                     </View>
                     <ScrollView style={{ flexDirection: "row", flex: 0.6 }} horizontal showsHorizontalScrollIndicator={false}>
