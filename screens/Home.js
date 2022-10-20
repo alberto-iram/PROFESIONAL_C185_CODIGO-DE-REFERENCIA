@@ -33,7 +33,7 @@ export default class Home extends Component {
                 </View>
                 <View style={styles.contentContainer}>
                     <View style={{ flex: 0.5 }}>
-                        <Text style={styles.contentText}>Prueba la experiencia virtual de usar diferentes gafas de nuestra gran colección en tu dispositivo móvil antes de realizar una compra, ¡justo como lo harías en una tiendo física!</Text>
+                        <Text style={styles.contentText}>Prueba la experiencia virtual de usar diferentes gafas de nuestra gran colección en tu dispositivo móvil antes de realizar una compra, ¡justo como lo harías en una tienda física!</Text>
                     </View>
                     <View style={{ flexDirection: "row", flex: 0.25 }}>
                         <View style={{ flex: 0.5 }}>
