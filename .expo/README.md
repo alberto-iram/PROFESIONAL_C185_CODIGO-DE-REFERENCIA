@@ -2,7 +2,7 @@
 
 La carpeta ".expo" se creó cuando un proyecto Expo comenzó a usar el comando "expo start".
 
-> ¿Qué contiene el archivo "packager-info.json" file?
+> ¿Qué contiene el archivo "packager-info.json"?
 
 El archivo "packager-info.json" contiene números de puertos y procesos PIDs que se usan para ejecutar la app en el dispositivo móvil/simulador.
 
